@@ -1,0 +1,23 @@
+.cover__subtitle {
+  position: relative;
+  margin: 0 auto 33px;
+  margin-bottom: calc((100% - 320px) / (768 - 320) * (115 - 33) + 33px);
+  width: min(calc((100% - 320px) / (768 - 320) * (360 - 288) + 288px), 360px);
+  font-weight: 400;
+  font-size: min(calc((100vw - 320px) / (768 - 320) * (18 - 14) + 14px), 18px);
+  line-height: min(calc((100vw - 320px) / (768 - 320) * (22 - 16) + 16px), 22px);
+  text-align: center;
+  color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: calc((100% - 768px) / (1024 - 768) * (195 - 115) + 115px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: min(calc((100% - 1024px) / (1184 - 1024) * (245 - 195) + 195px), 245px);
+  }
+}

@@ -1,0 +1,8 @@
+.header__lang-link {
+  margin: 14px 0 0 0;
+  font-weight: 400;
+  font-size: min(calc((100vw - 320px) / (768 - 320) * (24 - 18) + 18px), 24px);
+  line-height: min(calc((100vw - 320px) / (768 - 320) * (28 - 20) + 20px), 28px);
+  color: #fff;
+  text-decoration: none;
+}

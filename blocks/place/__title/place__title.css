@@ -1,0 +1,27 @@
+.place__title {
+  margin: 0 0 0 0;
+  margin-bottom: 32px;
+  margin-left: calc((100% - 320px) / (720 - 320) * (0 - 16) + 16px);
+  font-weight: 900;
+  font-size: calc((100vw - 320px) / (768 - 320) * (42 - 32) + 32px);
+  line-height: calc((100vw - 320px) / (768 - 320) * (46 - 35) + 35px);
+  color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .place__title {
+    margin: 0 0 0 0;
+    font-size: calc((100vw - 768px) / (1024 - 768) * (72 - 42) + 42px);
+    line-height: calc((100vw - 768px) / (1024 - 768) * (76 - 46) + 46px);
+  }
+  .place__title:first-child {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}

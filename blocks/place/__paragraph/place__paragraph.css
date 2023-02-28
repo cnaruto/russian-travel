@@ -1,0 +1,26 @@
+.place__paragraph {
+  margin: 0 0 0 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+}
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+    font-size: calc((100vw - 768px) / (1024 - 768) * (18 - 16) + 16px);
+    line-height: calc((100vw - 768px) / (1024 - 768) * (29 - 26) + 26px);
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,26 @@
+.intro {
+  min-width: 288px;
+  max-width: 720px;
+  width: calc((100% - 320px) / (768 - 320) * (720 - 288) + 288px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    margin-left: calc((100vw - 768px) / (1024 - 768) * (48 - 24) + 24px);
+    width: calc((100vw - 768px) / (1024 - 768) * (690 - 720) + 720px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 690px;
+    margin-left: calc((100% - 1024px) / (1280 - 1024) * (148 - 48) + 48px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-left: 148px;
+  }
+}

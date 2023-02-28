@@ -1,0 +1,20 @@
+.section-title {
+  min-width: 288px;
+  max-width: 720px;
+  width: calc((100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
+  text-align: center;
+  margin: 0 auto 16px;
+  margin-bottom: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 16px);
+  font-weight: 900;
+  font-size: calc((100vw - 320px) / (768 - 320) * (96 - 40) + 40px);
+  line-height: calc((100vw - 320px) / (768 - 320) * (100 - 44) + 44px);
+  color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 96px;
+    line-height: 100px;
+    margin-bottom: 32px;
+  }
+}

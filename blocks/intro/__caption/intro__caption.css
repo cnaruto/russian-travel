@@ -1,0 +1,17 @@
+.intro__caption {
+  width: calc((100% - 288px) / (720 - 288) * (720 - 250) + 250px);
+  margin: 0 0 40px 0;
+  font-weight: 900;
+  font-size: calc((100vw - 320px) / (768 - 320) * (54 - 32) + 32px);
+  line-height: 35px;
+  line-height: calc((100vw - 320px) / (768 - 320) * (58 - 35) + 35px);
+  color: #FFF;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__caption {
+    font-size: 54px;
+    line-height: 58px;
+  }
+}
