@@ -1,8 +1,6 @@
 .footer__link {
-  display: block;
   font-weight: 400;
   font-size: max(calc((100vw - 320px) / (768 - 320) * (16 - 24) + 24px), 16px);
-  line-height: 24px;
   line-height: max(calc((100vw - 320px) / (768 - 320) * (18 - 24) + 24px), 18px);
   margin: 0 0 32px 0;
   padding: 0;
@@ -10,8 +8,8 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
-  .footer__link {
-    margin: 0 18px 0 0;
-  }
+.footer__link:hover {
+  opacity: 0.8;
 }
+
+

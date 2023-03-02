@@ -1,4 +1,4 @@
-.section-title {
+.lead__title {
   min-width: 288px;
   max-width: 720px;
   width: calc((100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-title {
+  .lead__title {
     font-size: 96px;
     line-height: 100px;
     margin-bottom: 32px;

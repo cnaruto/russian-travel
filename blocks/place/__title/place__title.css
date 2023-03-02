@@ -13,9 +13,7 @@
     margin: 0 0 0 0;
     font-size: calc((100vw - 768px) / (1024 - 768) * (72 - 42) + 42px);
     line-height: calc((100vw - 768px) / (1024 - 768) * (76 - 46) + 46px);
-  }
-  .place__title:first-child {
-    width: 330px;
+    max-width: min(calc((100vw - 768px) / (1024 - 768) * (400 - 330) + 330px) , 400px);
   }
 }
 

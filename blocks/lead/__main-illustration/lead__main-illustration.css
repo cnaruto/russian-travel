@@ -1,8 +1,4 @@
 .lead__main-illustration {
   margin: 0 auto;
-  background-image: url(../../../image/lead-polka.jpg);
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding-bottom: 62.5%;
+  width: 100%;
 }

@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 1024px) {
   .intro {
-    width: 690px;
+    min-width: 690px;
     margin-left: calc((100% - 1024px) / (1280 - 1024) * (148 - 48) + 48px);
   }
 }

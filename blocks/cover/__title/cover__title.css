@@ -1,8 +1,8 @@
 .cover__title {
   position: relative;
-  margin: 35px auto 16px;
-  margin-top: calc((100% - 320px) / (768 - 320) * (115 - 35) + 35px);
-  margin-bottom: min(calc((100% - 320px) / (768 - 320) * (32 - 16) + 16px), 32px);
+  margin: 0 auto;
+  padding-top: calc((100% - 320px) / (768 - 320) * (115 - 35) + 35px);
+  padding-bottom: min(calc((100% - 320px) / (768 - 320) * (32 - 16) + 16px), 32px);
   width: min(calc((100vw - 320px) / (768 - 320) * (560 - 255) + 255px), 560px);
   font-weight: 900;
   font-size: min(calc((100vw - 320px) / (768 - 320) * (72 - 32) + 32px), 72px);
@@ -13,12 +13,12 @@
 
 @media screen and (min-width: 768px) {
   .cover__title {
-    margin-top: calc((100% - 768px) / (1024 - 768) * (195 - 115) + 115px);
+    padding-top: calc((100% - 768px) / (1024 - 768) * (195 - 115) + 115px);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__title {
-    margin-top: min(calc((100% - 1024px) / (1184 - 1024) * (245 - 195) + 195px), 245px);
+    padding-top: min(calc((100% - 1024px) / (1184 - 1024) * (245 - 195) + 195px), 245px);
   }
 }
