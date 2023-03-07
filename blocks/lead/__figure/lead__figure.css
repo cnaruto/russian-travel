@@ -3,19 +3,22 @@
   flex-direction: column;
   margin: 0 auto;
   min-width: 288px;
-  max-width: 984px;
-  width: calc((100% - 320px) / (768 - 320) * (768 - 320) + 320px);
-  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .lead__figure {
-    width: calc((100% - 768px) / (1024 - 768) * (928 - 768) + 768px);
+    width: 100%;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__figure {
-    width: calc((100% - 1024px) / (1280 - 1024) * (984 - 928) + 928px);
+    max-width: 928px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lead__figure {
+    max-width: 984px;
   }
 }
