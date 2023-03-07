@@ -1,8 +1,8 @@
 .footer__link {
+  display: inline-block;
   font-weight: 400;
   font-size: max(calc((100vw - 320px) / (768 - 320) * (16 - 24) + 24px), 16px);
   line-height: max(calc((100vw - 320px) / (768 - 320) * (18 - 24) + 24px), 18px);
-  margin: 0 0 32px 0;
   padding: 0;
   color: #FFF;
   text-decoration: none;
